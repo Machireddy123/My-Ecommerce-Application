@@ -30,4 +30,6 @@ them with:
 
 ```sh
 make run-tracetesting SERVICES_TO_TEST="ad payment"
+#or
+docker compose run traceBasedTests "ad payment"
 ```
