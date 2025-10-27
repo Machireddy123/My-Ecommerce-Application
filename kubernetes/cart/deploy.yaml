@@ -64,7 +64,7 @@ spec:
           resources:
             limits:
               memory: 160Mi
-          volumeMounts:
+          volumeMounts: []
       initContainers:
         - command:
           - sh
@@ -73,4 +73,4 @@ spec:
             for valkey; sleep 2; done;
           image: busybox:latest
           name: wait-for-valkey
-      volumes:
+      volumes: []
